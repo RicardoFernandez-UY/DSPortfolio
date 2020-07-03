@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #3a436d;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3410,7 +3410,8 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-image: linear-gradient(to right, rgb(190, 111, 111) , rgb(95, 95, 150));
+			/*background-color: #394169;*/
 			content: '';
 			display: block;
 			height: 100%;
