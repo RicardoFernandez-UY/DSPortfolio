@@ -1,4 +1,1 @@
-include
-  - pruebaconfigjekill/_images
-  - pruebaconfigjekill/_sources
-  - pruebaconfigjekill/_static
+include: ['pruebaconfigjekill/_images']
