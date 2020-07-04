@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Mi cuaderno Python ipynb &#8212; Proyectos Python</title>
+    <title>Mi cuaderno Python &#8212; Proyectos Python</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
@@ -30,7 +30,8 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Mi cuaderno Python" href="datascience_md.html" />
+    <link rel="next" title="Mi cuaderno Python ipynb" href="datascience.html" />
+    <link rel="prev" title="Descripción del Proyecto" href="descripcionproyecto.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -68,11 +69,11 @@
   <li class="">
     <a href="descripcionproyecto.html">Descripción del Proyecto</a>
   </li>
-  <li class="">
-    <a href="datascience_md.html">Mi cuaderno Python</a>
-  </li>
   <li class="active">
-    <a href="">Mi cuaderno Python ipynb</a>
+    <a href="">Mi cuaderno Python</a>
+  </li>
+  <li class="">
+    <a href="datascience.html">Mi cuaderno Python ipynb</a>
   </li>
 </ul>
 </nav>
@@ -115,9 +116,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/datascience.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="_sources/datascience_md.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.ipynb</button></a>
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -133,23 +134,6 @@
                     class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
-    <div class="dropdown-buttons">
-        
-        <a class="binder-button" href="https://mybinder.org/v2/gh/yourusername/yourbookrepo/master?urlpath=tree/datascience.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
-                data-placement="left"><img class="binder-button-logo"
-                    src="_static/images/logo_binder.svg"
-                    alt="Interact on binder">Binder</button></a>
-        
-        
-        
-        
-    </div>
-</div>
 
     </div>
     <div class="d-none d-md-block col-md-2 bd-toc show">
@@ -181,11 +165,14 @@
         
               <div>
                 
-  <div class="section" id="mi-cuaderno-python-ipynb">
-<h1>Mi cuaderno Python ipynb<a class="headerlink" href="#mi-cuaderno-python-ipynb" title="Permalink to this headline">¶</a></h1>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#regresiones lineales </span>
+  <div class="section" id="mi-cuaderno-python">
+<h1>Mi cuaderno Python<a class="headerlink" href="#mi-cuaderno-python" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>This is a bullet list</p></li>
+<li><p>This is a bullet list</p></li>
+<li><p>This is a bullet list</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#regresiones lineales </span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">The first line of the preceding code enables matplotlib to display the graphical output of the code in the notebook environment. </span>
 <span class="sd">The lines of code that follow use the import keyword to load various Python modules into our programming environment.</span>
@@ -205,35 +192,30 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;seaborn&#39;</span><span class="p">)</span> 
 </pre></div>
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rawBostonData</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter02/Dataset/Boston.csv&#39;</span><span class="p">)</span>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/usr/local/lib/python3.6/dist-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as tm
 </pre></div>
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  <span class="n">rawBostonData</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">rawBostonData</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter02/Dataset/Boston.csv&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>  <span class="n">rawBostonData</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>.dataframe tbody tr th {
+    vertical-align: top;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe thead th {
+    text-align: right;
+}
+</pre></div>
+</div>
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -337,32 +319,19 @@
     </tr>
   </tbody>
 </table>
-</div></div></div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#limpiamos los valores nulos</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#limpiamos los valores nulos</span>
 <span class="n">rawBostonData</span> <span class="o">=</span> <span class="n">rawBostonData</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#limpiamos duplicados</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#limpiamos duplicados</span>
 <span class="n">rawBostonData</span> <span class="o">=</span> <span class="n">rawBostonData</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">rawBostonData</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">rawBostonData</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>[&#39;CRIM&#39;,
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>[&#39;CRIM&#39;,
  &#39; ZN &#39;,
  &#39;INDUS &#39;,
  &#39;CHAS&#39;,
@@ -377,11 +346,7 @@
  &#39;MEDV&#39;]
 </pre></div>
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">renamedBostonData</span> <span class="o">=</span> <span class="n">rawBostonData</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;CRIM&#39;</span><span class="p">:</span><span class="s1">&#39;crimeRatePerCapita&#39;</span><span class="p">,</span> 
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">renamedBostonData</span> <span class="o">=</span> <span class="n">rawBostonData</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;CRIM&#39;</span><span class="p">:</span><span class="s1">&#39;crimeRatePerCapita&#39;</span><span class="p">,</span> 
  <span class="s1">&#39; ZN &#39;</span><span class="p">:</span><span class="s1">&#39;landOver25K_sqft&#39;</span><span class="p">,</span> 
  <span class="s1">&#39;INDUS &#39;</span><span class="p">:</span><span class="s1">&#39;non-retailLandProptn&#39;</span><span class="p">,</span> 
  <span class="s1">&#39;CHAS&#39;</span><span class="p">:</span><span class="s1">&#39;riverDummy&#39;</span><span class="p">,</span> 
@@ -397,21 +362,20 @@
 <span class="n">renamedBostonData</span><span class="o">.</span><span class="n">head</span><span class="p">()</span> 
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>.dataframe tbody tr th {
+    vertical-align: top;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe thead th {
+    text-align: right;
+}
+</pre></div>
+</div>
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -515,16 +479,11 @@
     </tr>
   </tbody>
 </table>
-</div></div></div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">renamedBostonData</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">renamedBostonData</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 Int64Index: 506 entries, 0 to 505
 Data columns (total 13 columns):
  #   Column                  Non-Null Count  Dtype  
@@ -546,13 +505,9 @@ dtypes: float64(10), int64(3)
 memory usage: 55.3 KB
 </pre></div>
 </div>
-</div>
-</div>
 <div class="section" id="algunas-estadisticas">
 <h2>Algunas estadisticas<a class="headerlink" href="#algunas-estadisticas" title="Permalink to this headline">¶</a></h2>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#calculamos estadisticas basicas</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#calculamos estadisticas basicas</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">We used the pandas function, describe, called on the DataFrame to calculate simple statistics for numeric fields (this includes any field with a numpy number</span>
 <span class="sd">in the DataFrame. The statistics include the minimum, the maximum, the count of rows in each column, the average of each column (mean), the 25th percentile, </span>
@@ -561,21 +516,20 @@ memory usage: 55.3 KB
 <span class="n">renamedBostonData</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">number</span><span class="p">])</span><span class="o">.</span><span class="n">T</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>.dataframe tbody tr th {
+    vertical-align: top;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe thead th {
+    text-align: right;
+}
+</pre></div>
+</div>
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -737,11 +691,8 @@ memory usage: 55.3 KB
     </tr>
   </tbody>
 </table>
-</div></div></div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Divide the DataFrame into training and test sets,</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Divide the DataFrame into training and test sets,</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">We choose a test data size of 30%, which is 0.3. The train_test_split function is used to achieve this. We set the seed of the random number generator </span>
 <span class="sd">so that we can obtain a reproducible split each time we run this code. An arbitrary value of 10 is used here. </span>
@@ -757,13 +708,9 @@ memory usage: 55.3 KB
 <span class="n">test_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-</div>
 <div class="section" id="algunas-grafiquitas">
 <h3>Algunas Grafiquitas<a class="headerlink" href="#algunas-grafiquitas" title="Permalink to this headline">¶</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Calculate and plot a correlation matrix for the train_data set</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Calculate and plot a correlation matrix for the train_data set</span>
 <span class="c1">#el backslash es para continuar la linea en el renglon siguiente</span>
 <span class="n">corrMatrix</span> <span class="o">=</span> <span class="n">train_data</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">method</span> <span class="o">=</span> <span class="s1">&#39;pearson&#39;</span><span class="p">)</span>
 <span class="n">xnames</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">train_data</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -772,49 +719,37 @@ memory usage: 55.3 KB
           <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">normcolor</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;RdYlBu_r&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="_images/datascience_13_0.png" src="_images/datascience_13_0.png" />
-<img alt="_images/datascience_13_1.png" src="_images/datascience_13_1.png" />
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<p><img alt="png" src="_images/output_13_0.png" /></p>
+<p><img alt="png" src="_images/output_13_1.png" /></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">In the preceding heatmap, we can see that there is a strong positive correlation (an increase in one causes an increase in the other) </span>
 <span class="sd">between variables that have orange or red squares. </span>
 <span class="sd">There is a strong negative correlation (an increase in one causes a decrease in the other) between variables with blue squares. </span>
 <span class="sd">There is little or no correlation between variables with pale-colored squares.</span>
 <span class="sd">&quot;&quot;&quot;</span>
+
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;\nIn the preceding heatmap, we can see that there is a strong positive correlation (an increase in one causes an increase in the other) \nbetween variables that have orange or red squares. \nThere is a strong negative correlation (an increase in one causes a decrease in the other) between variables with blue squares. \nThere is little or no correlation between variables with pale-colored squares.\n&#39;
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;\nIn the preceding heatmap, we can see that there is a strong positive correlation (an increase in one causes an increase in the other) \nbetween variables that have orange or red squares. \nThere is a strong negative correlation (an increase in one causes a decrease in the other) between variables with blue squares. \nThere is little or no correlation between variables with pale-colored squares.\n&#39;
 </pre></div>
 </div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">train_data</span><span class="o">.</span><span class="n">corr</span> <span class="p">(</span><span class="n">method</span> <span class="o">=</span> <span class="s1">&#39;pearson&#39;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">train_data</span><span class="o">.</span><span class="n">corr</span> <span class="p">(</span><span class="n">method</span> <span class="o">=</span> <span class="s1">&#39;pearson&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>.dataframe tbody tr th {
+    vertical-align: top;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe thead th {
+    text-align: right;
+}
+</pre></div>
+</div>
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1046,11 +981,8 @@ memory usage: 55.3 KB
     </tr>
   </tbody>
 </table>
-</div></div></div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#usando Scatter graphs</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#usando Scatter graphs</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Use the subplots function in matplotlib to define a canvas (assigned the variable name fig in the following code) and a graph object (assigned the variable </span>
 <span class="sd">name ax in the following code) in Python. </span>
@@ -1071,16 +1003,13 @@ memory usage: 55.3 KB
 <span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;both&#39;</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s1">&#39;major&#39;</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 
 <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;medianValue_Ks&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;crimeRatePerCapita&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train_data</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">scatter_kws</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;s&quot;</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span><span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="s2">&quot;royalblue&quot;</span><span class="p">,</span> <span class="s2">&quot;alpha&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">})</span>
+
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1d592ec5588&gt;
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f66beb36940&gt;
 </pre></div>
 </div>
-<img alt="_images/datascience_16_1.png" src="_images/datascience_16_1.png" />
-</div>
-</div>
+<p><img alt="png" src="_images/output_16_1.png" /></p>
 </div>
 </div>
 </div>
@@ -1094,7 +1023,8 @@ memory usage: 55.3 KB
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="datascience_md.html" title="previous page">Mi cuaderno Python</a>
+    <a class='left-prev' id="prev-link" href="descripcionproyecto.html" title="previous page">Descripción del Proyecto</a>
+    <a class='right-next' id="next-link" href="datascience.html" title="next page">Mi cuaderno Python ipynb</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
