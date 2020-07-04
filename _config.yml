@@ -1,4 +1,4 @@
 include
-  - _images
-  - _sources
-  - _static
+  - pruebaconfigjekill/_images
+  - pruebaconfigjekill/_sources
+  - pruebaconfigjekill/_static
