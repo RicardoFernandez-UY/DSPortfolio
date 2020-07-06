@@ -161,7 +161,7 @@
     <ul class="nav section-nav flex-column">
     
         <li class="nav-item toc-entry toc-h2">
-            <a href="#esto-es-solamente-para-que-no-de-error-al-importar-las-bibliotecas-en-binder" class="nav-link">Esto es solamente para que no de error al importar las bibliotecas en Binder</a>
+            <a href="#esto-hay-que-ejecutarlo-estando-en-binder-para-que-no-de-error-al-importar-las-bibliotecas" class="nav-link">Esto hay que ejecutarlo estando en Binder para que no de error al importar las bibliotecas</a>
         </li>
     
         <li class="nav-item toc-entry toc-h2">
@@ -187,82 +187,10 @@
                 
   <div class="section" id="mi-cuaderno-python-ipynb">
 <h1>Mi cuaderno Python ipynb<a class="headerlink" href="#mi-cuaderno-python-ipynb" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="esto-es-solamente-para-que-no-de-error-al-importar-las-bibliotecas-en-binder">
-<h2>Esto es solamente para que no de error al importar las bibliotecas en Binder<a class="headerlink" href="#esto-es-solamente-para-que-no-de-error-al-importar-las-bibliotecas-en-binder" title="Permalink to this headline">¶</a></h2>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">matplotlib</span>
-<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pandas</span>
-<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">seaborn</span>
-<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">statsmodels</span>
-<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">sklearn</span>
-<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">patsy</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: matplotlib in c:\bigdata\anaconda\lib\site-packages (3.1.3)
-Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\bigdata\anaconda\lib\site-packages (from matplotlib) (1.1.0)
-Requirement already satisfied: numpy&gt;=1.11 in c:\bigdata\anaconda\lib\site-packages (from matplotlib) (1.18.1)
-Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,&gt;=2.0.1 in c:\bigdata\anaconda\lib\site-packages (from matplotlib) (2.4.6)
-Requirement already satisfied: python-dateutil&gt;=2.1 in c:\bigdata\anaconda\lib\site-packages (from matplotlib) (2.8.1)
-Requirement already satisfied: cycler&gt;=0.10 in c:\bigdata\anaconda\lib\site-packages (from matplotlib) (0.10.0)
-Requirement already satisfied: setuptools in c:\bigdata\anaconda\lib\site-packages (from kiwisolver&gt;=1.0.1-&gt;matplotlib) (45.2.0.post20200210)
-Requirement already satisfied: six&gt;=1.5 in c:\bigdata\anaconda\lib\site-packages (from python-dateutil&gt;=2.1-&gt;matplotlib) (1.14.0)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: pandas in c:\bigdata\anaconda\lib\site-packages (1.0.1)
-Requirement already satisfied: python-dateutil&gt;=2.6.1 in c:\bigdata\anaconda\lib\site-packages (from pandas) (2.8.1)
-Requirement already satisfied: pytz&gt;=2017.2 in c:\bigdata\anaconda\lib\site-packages (from pandas) (2019.3)
-Requirement already satisfied: numpy&gt;=1.13.3 in c:\bigdata\anaconda\lib\site-packages (from pandas) (1.18.1)
-Requirement already satisfied: six&gt;=1.5 in c:\bigdata\anaconda\lib\site-packages (from python-dateutil&gt;=2.6.1-&gt;pandas) (1.14.0)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: seaborn in c:\bigdata\anaconda\lib\site-packages (0.10.0)
-Requirement already satisfied: pandas&gt;=0.22.0 in c:\bigdata\anaconda\lib\site-packages (from seaborn) (1.0.1)
-Requirement already satisfied: matplotlib&gt;=2.1.2 in c:\bigdata\anaconda\lib\site-packages (from seaborn) (3.1.3)
-Requirement already satisfied: scipy&gt;=1.0.1 in c:\bigdata\anaconda\lib\site-packages (from seaborn) (1.4.1)
-Requirement already satisfied: numpy&gt;=1.13.3 in c:\bigdata\anaconda\lib\site-packages (from seaborn) (1.18.1)
-Requirement already satisfied: python-dateutil&gt;=2.6.1 in c:\bigdata\anaconda\lib\site-packages (from pandas&gt;=0.22.0-&gt;seaborn) (2.8.1)
-Requirement already satisfied: pytz&gt;=2017.2 in c:\bigdata\anaconda\lib\site-packages (from pandas&gt;=0.22.0-&gt;seaborn) (2019.3)
-Requirement already satisfied: cycler&gt;=0.10 in c:\bigdata\anaconda\lib\site-packages (from matplotlib&gt;=2.1.2-&gt;seaborn) (0.10.0)
-Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,&gt;=2.0.1 in c:\bigdata\anaconda\lib\site-packages (from matplotlib&gt;=2.1.2-&gt;seaborn) (2.4.6)
-Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\bigdata\anaconda\lib\site-packages (from matplotlib&gt;=2.1.2-&gt;seaborn) (1.1.0)
-Requirement already satisfied: six&gt;=1.5 in c:\bigdata\anaconda\lib\site-packages (from python-dateutil&gt;=2.6.1-&gt;pandas&gt;=0.22.0-&gt;seaborn) (1.14.0)
-Requirement already satisfied: setuptools in c:\bigdata\anaconda\lib\site-packages (from kiwisolver&gt;=1.0.1-&gt;matplotlib&gt;=2.1.2-&gt;seaborn) (45.2.0.post20200210)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: statsmodels in c:\bigdata\anaconda\lib\site-packages (0.11.0)
-Requirement already satisfied: numpy&gt;=1.14 in c:\bigdata\anaconda\lib\site-packages (from statsmodels) (1.18.1)
-Requirement already satisfied: scipy&gt;=1.0 in c:\bigdata\anaconda\lib\site-packages (from statsmodels) (1.4.1)
-Requirement already satisfied: pandas&gt;=0.21 in c:\bigdata\anaconda\lib\site-packages (from statsmodels) (1.0.1)
-Requirement already satisfied: patsy&gt;=0.5 in c:\bigdata\anaconda\lib\site-packages (from statsmodels) (0.5.1)
-Requirement already satisfied: pytz&gt;=2017.2 in c:\bigdata\anaconda\lib\site-packages (from pandas&gt;=0.21-&gt;statsmodels) (2019.3)
-Requirement already satisfied: python-dateutil&gt;=2.6.1 in c:\bigdata\anaconda\lib\site-packages (from pandas&gt;=0.21-&gt;statsmodels) (2.8.1)
-Requirement already satisfied: six in c:\bigdata\anaconda\lib\site-packages (from patsy&gt;=0.5-&gt;statsmodels) (1.14.0)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: sklearn in c:\bigdata\anaconda\lib\site-packages (0.0)
-Requirement already satisfied: scikit-learn in c:\bigdata\anaconda\lib\site-packages (from sklearn) (0.22.1)
-Requirement already satisfied: joblib&gt;=0.11 in c:\bigdata\anaconda\lib\site-packages (from scikit-learn-&gt;sklearn) (0.14.1)
-Requirement already satisfied: numpy&gt;=1.11.0 in c:\bigdata\anaconda\lib\site-packages (from scikit-learn-&gt;sklearn) (1.18.1)
-Requirement already satisfied: scipy&gt;=0.17.0 in c:\bigdata\anaconda\lib\site-packages (from scikit-learn-&gt;sklearn) (1.4.1)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: patsy in c:\bigdata\anaconda\lib\site-packages (0.5.1)
-Requirement already satisfied: six in c:\bigdata\anaconda\lib\site-packages (from patsy) (1.14.0)
-Requirement already satisfied: numpy&gt;=1.4 in c:\bigdata\anaconda\lib\site-packages (from patsy) (1.18.1)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
+<div class="section" id="esto-hay-que-ejecutarlo-estando-en-binder-para-que-no-de-error-al-importar-las-bibliotecas">
+<h2>Esto hay que ejecutarlo estando en Binder para que no de error al importar las bibliotecas<a class="headerlink" href="#esto-hay-que-ejecutarlo-estando-en-binder-para-que-no-de-error-al-importar-las-bibliotecas" title="Permalink to this headline">¶</a></h2>
+<p><strong><span style="color: #ff0000;">#Cambiar el tipo de celda a Code y ejecutar antes que el resto de las celdas del libro</span></strong></p>
+<p>%pip install matplotlib<br />%pip install pandas<br />%pip install seaborn<br />%pip install statsmodels<br />%pip install sklearn<br />%pip install patsy</p><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#regresiones lineales </span>
 <span class="sd">&quot;&quot;&quot;</span>
@@ -1155,7 +1083,7 @@ memory usage: 55.3 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1b5e1ee5a08&gt;
+<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1f03c7f67c8&gt;
 </pre></div>
 </div>
 <img alt="_images/datascience_18_1.png" src="_images/datascience_18_1.png" />
