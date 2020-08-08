@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>COVID-19 Data Analysis Toolkit</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<!-- 	
+				<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+						
+					</header>
+					-->
+				<!-- Menu
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+					 -->
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>COVID-19 Data Analysis Toolkit</h1>
+							</header>
+							<div class="content">
+								<p>Este proyecto tiene como objetivo presentar un Tablero de Control con información sobre el COVID-19 a nivel mundial, y permitir realizar ciertas observaciones y 	análisis sobre el tema.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Origen y propósito</h2>
+									</header>
+									<p>El Tablero (dashboard) surge principalmente para responder a las siguientes preguntas/necesidades:
+										<li>Poder visualizar en forma simultánea la evolución global de la enfermedad en una línea de tiempo, el desplazamiento de la misma en mundo, y  la distribución relativa en los distintos países.</li>
+										<li>Analizar si factores macro de cada país pueden explicar el grado de avance de la enfermedad. (actualmente en desarrollo)</li>
+										<li>Visualizar la evolución regional de la enfermedad y poder compararla en la línea de tiempo con la evolución a nivel continental.</li>
+										<li>Tener un ranking que permita visualizar rápidamente  los países más afectados (en términos de cantidad) en casos y decesos.</li>
+									</p>
+									<header class="major">
+										<h2>Organización </h2>
+									</header>
+									<p>El proyecto es un sistema continuo que se mantiene actualizado en forma autónoma y está estructurado de la siguiente forma  :
+										<li>Carga de los datos crudos desde las fuentes remotas al área de Staging en Google Sheets</li>
+										<li>Automatización de la carga mediante scripts y programación de tareas (scheduler)</li>
+										<li>Limpieza del Dataset resultado y reducción de filas</li>
+										<li>Preparación del Dataset para mejor funcionamiento en la herramienta de Análisis y Visualización (pivot, cambio de tipos de datos, creación de nuevos datos a partir de los originales) </li>
+										<li>Consumo de la información por parte de la herramienta en forma de gráficas, tablas, etc.</li>
+									</p>
+								</div>
+							</section>
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a  class="image">
+										<img src="images/fuentesdeinformacion.jpg" alt="" width="500" height="400" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Area de Staging</h3>
+											</header>
+											<p>En esta capa se encuentra el área de Staging. Aquí se realizan las cargas de datos, la programación de tareas para la automatización, y la generación de algunos nuevos valores para el análisis. Las cargas principales se realizan mediante lectura directa de archivos .csv. También se realiza algo de web scraping para obtener ciertos parámetros de funcionamiento de otras páginas dinámicas.</p>
+											<!--ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul --->
+										</div>
+									</div>
+								</section>
+								<section>
+									<!--a href="generic.html" class="image"-->
+										<img src="images/areadestaging.jpg" alt="" width="550" height=400 data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Preparación de los datos</h3>
+											</header>
+											<p>En esta capa se realiza la preparación de la información aplicando operaciones como por ejemplo pivots, alguna limpieza adicional, cambios de tipo de datos, reducción de filas, filtrado de información no relevante, etc.</p>
+											<!-- ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul-->
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/preparaciondelainformacion.png" alt=""  width="550" height=400 data-position="center center"  />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Análisis y presentación</h3>
+											</header>
+											<p>En esta capa se confeccionan los gráficos y otras herramientas para el posterior anáisis de la información, buscando representar los datos de la forma que mejor se adapte a su naturaleza, y a las preguntas a responder mediante el análisis de los mismos.</p>
+											<!--ul class="actions">
+												<li><a  class="button">Learn more</a></li>
+											</ul-->
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Evolución de proyecto</h2>
+									</header>
+									<p>
+										<li>	Se comenzó trabajando con un conjunto de datos perteneciente al Portal de datos abierto de la Unión Europea, accediendo directamente al mismo a través de un vínculo con archivos CSV, y actualizando la información en línea.</li>
+										<li>	Posteriormente se incorporó otro conjunto de datos de la OWID (Programa de Desarrollo Global de la Universidad de Oxford), con más información. </li>
+										Este conjunto de datos presentó un desafío ya que por su tamaño no pudo ser cargado directamente (utilizando las herramientas nativas de Google) en las planillas de Google que se estaban utilizando con área intermedia de procesamiento (Staging).
+										Esto requirió la implementación de scripts para la carga de esta información en las planillas, y posteriormente la definición de una programación regular (scheduling) de la carga, para asegurar una actualización consistente de los datos.
+										<li>	También se definieron algunos cálculos de agregación intermedios para simplificar el trabajo de la herramienta de visualización.</li>
+										<li>	Además de la información proveniente del conjunto de datos original, el tablero realiza cálculos relevantes a los efectos de proveer perspectiva a los datos crudos, mostrando por ejemplo la incidencia porcentual relativa de la enfermedad, en contraste con la población y la cantidad de casos reportados. Esta información permite evaluar desde una perspectiva diferente el impacto real de la pandemia en cada país.</li>
+										<li>	El tablero permite analizar la aparición de casos en cada país en la línea de tiempo, para poder correlacionarlos con otros eventos ocurridos en fechas similares. (en desarrollo)</li>
+										<li>	El tablero cuenta con instrucciones de uso incorporadas, y funciona de forma autónoma, pudiendo ser accedido directamente desde el navegador a través de un link, o invocado desde otro portal (que es la forma en que se utiliza actualmente en la empresa)</li>
+										<li>	En una siguiente revisión se incorporaron datos de movilidad obtenidos de la información recolectada por Apple y Google (actualmente no disponible por temas de volumen).</li>
+											<li>	Para esto se incorporaron nuevos datasets y se realizaron los cambios correspondientes en las hojas y Dashboard en la herramienta.</li>
+											<li>	En relación a la recuperación de los datos hubo que resolver varios problemas, como por ejemplo la url dinámica generada por Apple para pubicar sus datos. En principio solo se detectó un cambio relacionado con la fecha de publicación por lo cual se programó el script para que formara una url compuesta por las partes fijas variabes. Pero luego se detectó que además de la fecha, había otros cambios más sutiles en la url, que reflejaban versionados internos de Apple. Para solucionar este evento se decidió realizar un web scraping mínimo para recuperar la url ya generada en lugar de calcularla, ya que se desconocían los parámetros en base a los cuales se estaba generando la parte de versionado de la url.</li>
+											<li>	Otro aspecto que hubo que resolver como parte de la preparación de los datos fue la existencia de información inconsistente a distintos niveles de detalle. Para esto hubo que eliminar registros con valores nulos, y homogeneizar el nivel de agregación de la información antes de ser cargada a la herramienta.</li>
+										</p>
+									<!--ul class="actions">
+										<li><a href="generic.html" class="button next">Get Started</a></li>
+									</ul--->
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact 
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section-->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

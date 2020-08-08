@@ -1,0 +1,3250 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>COVID-19 Data Analysis Toolkit</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.container{
+				display: flex;
+				
+			}
+			.fixed{
+				width: 46%;
+				margin: 2%;
+			}
+			.flex-item{
+				flex-grow: 1;
+				margin: 2%;
+			}
+		</style>
+
+<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0; margin: 0px;}
+	.tg td{border-color:rgb(248, 245, 245);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+	  overflow:hidden;padding:2px 2px;word-break:normal;}
+	.tg th{border-color:rgb(248, 245, 245);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+	  font-weight:normal;overflow:hidden;padding:2px 2px;word-break:normal;}
+	.tg .tg-unqf{background-color:rgb(248, 245, 245,0.3);color:#efefef;font-size:14px;text-align:left;vertical-align:middle}
+	.tg .tg-q4za{background-color:rgb(248, 245, 245,0.1);color:#efefef;font-size:11px;text-align:left;vertical-align:middle}
+	</style>
+
+
+	<style>
+		.ulcustom {list-style-type: "🔔";columns: 2;} 
+	</style>
+	<style>
+		.ulcustom2 {list-style-type: "\2713"; columns: 2;} 
+	</style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<!-- 	
+				<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+						
+					</header>
+					-->
+				<!-- Menu
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+					 -->
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Cursos y otros Estudios</h1>
+							</header>
+							<div class="content">
+								<p>LOS ESTUDIOS ESTÁN AGRUPADOS POR ÁREA TEMÁTICA, CON UNA DESCRIPCIÓN GENERAL DE CURSO, LA REFERENCIA AL MISMO, Y UNA LISTA RESUMIDA DEL CONTENIDO.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- One -->
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h2>Tabla de contenidos</h2>
+								</header>
+									<li><a href="#tableau">Tableau</a></li>
+									<li><a href="#estadistica">Estadistica y Probabilidad</a></li>
+									<li><a href="#webscraping">Web Scraping</a></li>
+									<li><a href="#python">Python</a></li>
+									<li><a href="#mongo">MongoDB</a></li>
+									<li><a href="#nlp">NLP</a></li>
+									<li><a href="#ontologies">Ontologías y Modelado del conocimiento</a></li>
+									<li><a href="#github">Git y Github</a></li>
+									<li><a href="#crispdm">Metodología Crisp-DM</a></li>
+									<li><a href="#datascience">Data Science</a></li>
+									<li><a href="#lenguajer">R</a></li>
+									<li><a href="#machinelearning">Machine Learning</a></li>
+									<li><a href="#graphql">GraphQL</a></li>
+									<li><a href="#react">Full Stack React, Python, GraphQL</a></li>
+									<li><a href="#gephi">Gephi</a></li>
+									<li><a href="#grafos">Grafos</a></li>
+									<li><a href="#neural">Neural  Networks</a></li>
+									<li><a href="#bigdata">Big Data</a></li>
+								</p>
+							</div>
+						</section>
+						<!-- Two -->
+							<section id="two" class="spotlights" >
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="tableau" style="padding-left: 10px; ">
+														<h3>Tableau</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/logotableau.png" alt="" width="150" height=60 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Hands on Tableau</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Super datascience</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">30hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Skillshare</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Master Tableau in Datascience</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Super datascience</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">40hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Udemy</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Tableau Desktop I y 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Tableau Software</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">40hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Tableau</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Tableau Desktop 3</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">05/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Tableeau Software</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">30hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Tableau</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Interface navigation</li>
+												<li>Data loading, CSV, PDF, Databases</li>
+												<li>Data cleaning</li>
+												<li>Data preparation</li>
+												<li>Calculated fields</li>
+												<li>Charts, Line, Pie, Boxplots</li>
+												<li>Filters</li>
+												<li>Aggregation, Level of Detail</li>
+												<li>Scatterplots, Maps, Tree Maps</li>
+												<li>Joins, Blends, Pivots</li>
+												<li>Interaction</li>
+												<li>Parameters</li>
+												<li>Groups and Sets</li>
+												<li>Storylines</li>
+												<li>Geographical data</li>
+												<li>Clustering</li>
+												<li>Table calculations</li>
+												<li>Dashboards</li>
+												<li>Animations</li>											
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="estadistica" style="padding-left: 10px; ">
+														<h3>Estadísticas y Probabilidad</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/estadisticas.png" alt="" width="130" height=70 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Basic Statistics</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">07/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Universidad de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Correlation</li>
+												<li>Crostabs y Scatterplots</li>
+												<li>Regressions</li>
+												<li>Cotingency tables</li>
+												<li>Sample space</li>
+												<li>Tree diagrams</li>
+												<li>Sets</li>
+												<li>Conditional, Joint, Marginal Probabilities</li>
+												<li>Mean and Proportions</li>
+												<li>Bayes's law</li>
+												<li>Normal, Binomial distributions</li>
+												<li>Sampling distribution</li>
+												<li>Central limit theorem</li>
+												<li>Inference and Confidence interval</li>
+												<li>Sample size</li>
+												<li>Hypothesis</li>
+												<li>Significance tests</li>
+												<li>Type I y Type II errors</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="webscraping" style="padding-left: 10px; ">
+														<h3>Web Scraping</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/webscraping.png" alt="" width="150" height=60 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="python" style="padding-left: 10px; ">
+														<h3>Python</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/python.png" alt="" width="100" height=70 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="mongo" style="padding-left: 10px; ">
+														<h3>MongoDB</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/mongo2.png" alt="" width="140" height=60 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="nlp" style="padding-left: 10px; ">
+														<h3>NLP Natural Language Processing</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/nlp.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="ontologies" style="padding-left: 10px; ">
+														<h3>Ontologías</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/ontology.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="github" style="padding-left: 10px; ">
+														<h3>Git y Github</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/github.png" alt="" width="60" height=60 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>								
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="crispdm" style="padding-left: 10px; ">
+														<h3>Crisp-DM</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/crisp-dm.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="datascience" style="padding-left: 10px; ">
+														<h3>Data Science</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/datascience.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="lenguajer" style="padding-left: 10px; ">
+														<h3>R</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/r.png" alt="" width="100" height=60 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="machinelearning" style="padding-left: 10px; ">
+														<h3>Machine Learning</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/ml.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="graphql" style="padding-left: 10px; ">
+														<h3>GraphQL</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/graphql.png" alt="" width="80" height=70 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="react" style="padding-left: 10px; ">
+														<h3>Full Stack React, Python, GraphQL</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/react.png" alt="" width="80" height=60 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="gephi" style="padding-left: 10px; ">
+														<h3>Gephi</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/gephi.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="grafos" style="padding-left: 10px; ">
+														<h3>Grafos</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/grafos.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="bigdata" style="padding-left: 10px; ">
+														<h3>Big Data</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/bigdata.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+								<section>
+									<div class="content" style="padding:5px; margin: 0px; padding: 0px;" ;>
+										<div class="inner" style="background-color: rgba(133, 131, 240, 0.144);" style="margin: 0px;">
+											<div class="container" style="height: 60px;">
+												<div class="fixed" style="width: 90%;margin-bottom: 0mm; ">
+													<header id="neural" style="padding-left: 10px; ">
+														<h3>Neural Networks</h3>
+													</header>
+												</div>
+												<div class="flex-item">
+								
+													<img src="images/neural.png" alt="" width="140" height=50 data-position="center center" />
+								
+												</div>
+											</div>
+								
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="container">
+												<div class="fixed">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 1</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/03/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Amsterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">60hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="flex-item">
+								
+													<table class="tg">
+														<tbody>
+															<tr>
+																<td class="tg-unqf" colspan="2">Curso 2</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Fecha</td>
+																<td class="tg-q4za">01/04/2020</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Institución</td>
+																<td class="tg-q4za">Univ. de Rotterdam</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Inversión</td>
+																<td class="tg-q4za">50hs</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Proveedor</td>
+																<td class="tg-q4za">Coursera</td>
+															</tr>
+															<tr>
+																<td class="tg-q4za">Modalidad</td>
+																<td class="tg-q4za">Online</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<p></p>
+											<!--ul class="actions">
+																				<li><a href="generic.html" class="button">Learn more</a></li>
+																			</ul --->
+										</div>
+									</div>
+									<div class="flex-item" style="margin: 0px;">
+										<header id="tableau">
+											<h3 style="text-align: center; padding: 18px; background-color: rgba(133, 131, 240, 0.144);">Temática
+												desarrollada</h3>
+											<ul class="ulcustom2" style="padding-left: 30px;margin-bottom: 30px;">
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+												<li>Humous</li>
+												<li>Pitta</li>
+												<li>Green salad</li>
+												<li>Halloumi</li>
+											</ul>
+								
+										</header>
+									</div>
+								</section>
+
+
+
+					</div>
+
+				<!-- Contact 
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section-->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
